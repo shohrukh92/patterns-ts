@@ -17,7 +17,7 @@ class Burger {
     this.lettuce = builder.lettuce;
   }
 
-  describe() {
+  describe(): void {
     console.log(`Burger description:
       size - ${this.size};
       cheese - ${this.cheese};
@@ -40,22 +40,22 @@ class BurgerBuilder {
     this.size = size;
   }
 
-  addCheese() {
+  addCheese(): BurgerBuilder {
     this.cheese = true;
     return this;
   }
 
-  addTomato() {
+  addTomato(): BurgerBuilder {
     this.tomato = true;
     return this;
   }
 
-  addPepperoni() {
+  addPepperoni(): BurgerBuilder {
     this.pepperoni = true;
     return this;
   }
 
-  addLettuce() {
+  addLettuce(): BurgerBuilder {
     this.lettuce = true;
     return this;
   }
