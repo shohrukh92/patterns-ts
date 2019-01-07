@@ -1,5 +1,8 @@
 # patterns-ts
-Design Patterns implementation based on TypeScript
+Design Patterns implementation based on TypeScript. 
+
+## Samples Source 1: https://refactoring.guru/
+## Samples Source 2: https://habr.com/company/mailru/blog/325492/
 
 # Creational
 ## https://en.wikipedia.org/wiki/Design_Patterns
